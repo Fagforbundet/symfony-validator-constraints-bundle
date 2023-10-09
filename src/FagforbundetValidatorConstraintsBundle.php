@@ -20,7 +20,7 @@ class FagforbundetValidatorConstraintsBundle extends AbstractBundle {
         ->arrayNode('notification_api')
           ->addDefaultsIfNotSet()
           ->children()
-            ->scalarNode('base_uri')->isRequired()->defaultValue('https://api.meldinger.fagforbundet.dev')->end()
+            ->scalarNode('base_uri')->isRequired()->defaultValue('https://api.meldinger.fagforbundet.no')->end()
           ->end()
         ->end()
       ->end()
