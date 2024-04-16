@@ -13,7 +13,7 @@ use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class NotificationApiEmailAddressValidator extends ConstraintValidator {
-  private const VALIDATE_EMAIL_PATH = '/v1/validate/email-address';
+  private const VALIDATE_EMAIL_PATH = '/v2/validate/email-address';
 
   /**
    * NotificationApiEmailAddressValidator constructor.
