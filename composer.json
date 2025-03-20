@@ -18,8 +18,8 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.2",
-        "symfony/framework-bundle": "^6.3",
-        "symfony/validator": "^6.3",
-        "symfony/http-client": "^6.3"
+        "symfony/framework-bundle": "^6.4|^7.2",
+        "symfony/validator": "^6.4|^7.2",
+        "symfony/http-client": "^6.4|^7.2"
     }
 }
